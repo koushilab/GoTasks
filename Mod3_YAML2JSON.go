@@ -51,6 +51,7 @@ func main() {
 		err = ioutil.WriteFile(JSONOutPath+file.Name()+".json", pretty, 0644)
 		time.Sleep(150)
 		PrintFatalError(err)
+		fmt.Println("Sample Text")
 	}
 
 }
